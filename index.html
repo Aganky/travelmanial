@@ -1,1 +1,35 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <title>TravelManial Airline</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+	<div class="container">
+		<div class="title">Add A Passenger</div>
+
+		<fieldset>
+			<legend> Passenger Details </legend>
+			<form action="AddPassenger" method="post">
+				<div class="inputfield">
+  					First Name: <input name="firstname" type="text"> <br></br>
+  					Last Name: <input name="lastname" type="text"> <br></br>
+  					Date Of Birth: <input name="dob" type="text"> <br></br>
+  					Gender: <select name="gender">
+  					<option value="male">Male</option>
+  					<option value="female">Female</option>
+					</select>
+				</div>
+			</form>
+		</fieldset>
+
+		<div class="inputfield" id="submitfield">
+			<input id="submitbtn" type="submit" value="Add New Passenger"></input>
+		</div>
+
+	</div>
+
+</body>
+</html>
